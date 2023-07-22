@@ -9,6 +9,14 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="base.css">
     <title>Project2</title>
+    <script>
+        function scrollToSection(id) {
+          const element = document.getElementById(id);
+          if (element) {
+            element.scrollIntoView({ behavior: "smooth" });
+          }
+        }
+      </script>
 </head>
 <body>
     <header class="header" id="Home">
@@ -24,12 +32,12 @@
                                 <div class="wrap">
                                     <ul class="list">
                                         <li class="item"><a href="#Home">Home</a></li>
-                                        <li class="item"><a href="#">About</a></li>
-                                        <li class="item"><a href="#">Work Process</a></li>
-                                        <li class="item"><a href="#">Testimonials</a></li>
-                                        <li class="item"><a href="#">Pricing Tables</a></li>
-                                        <li class="item"><a href="#">Blog Entries</a></li>
-                                        <li class="item"><a href="#">Contact Us</a></li>
+                                        <li class="item"><a href="#About">About</a></li>
+                                        <li class="item"><a href="#Work Process">Work Process</a></li>
+                                        <li class="item"><a href="#Testimonials">Testimonials</a></li>
+                                        <li class="item"><a href="#Pricing Tables">Pricing Tables</a></li>
+                                        <li class="item"><a href="#Blog Entries">Blog Entries</a></li>
+                                        <li class="item"><a href="#Contact Us">Contact Us</a></li>
                                     </ul>
                                 </div>
                                 <a href="#"><div class="bar"><i class="fa-solid fa-bars-staggered"></i></div></a>
@@ -40,7 +48,7 @@
             </div>
         </div>
     </header>
-    <section class="section-one">
+    <section class="section-one" >
         <div class="container">
             <div class="row row_first">
                 <div class="col-xl-6 col-lg-8 col-md-12 col-sm-12 col-12">
@@ -79,7 +87,7 @@
             </div>
         </div>
     </div>
-    <section class="section-three">
+    <section class="section-three" id="About">
         <div class="container">
             <div class="row">
                 <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12 col-12">
@@ -111,7 +119,7 @@
             </div>
         </div>
     </section>
-    <section class="section-five">
+    <section class="section-five" id="Work Process">
         <div class="container">
             <div class="row sec_one">
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
@@ -179,7 +187,7 @@
             </div>
         </div>
     </section>
-    <section class="section-six">
+    <section class="section-six" id="Testimonials">
         <div class="container">
             <div class="row row-one">
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
@@ -232,7 +240,7 @@
             </div>
         </div>
     </section>
-    <section class="section-seven">
+    <section class="section-seven" id="Pricing Tables">
         <div class="container">
             <div class="row row-one">
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
@@ -319,7 +327,7 @@
             </div>
         </div>
     </section>
-    <section class="section-nine">
+    <section class="section-nine" id="Blog Entries">
         <div class="container">
             <div class="row row-one text-center justify-content-center">
                 <div class="col-12"><div class="title">Blog Entries</div></div>
@@ -353,7 +361,7 @@
             </div>
         </div>
     </section>
-    <section class="section-ten">
+    <section class="section-ten" id="Contact Us">
         <div class="container">
             <div class="row row-one text-center justify-content-center">
                 <div class="col-12"><div class="title">Talk To Us</div></div>

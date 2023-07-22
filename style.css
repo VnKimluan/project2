@@ -153,15 +153,19 @@ header{
     font-size: 13px;
     margin-bottom: 0px;
 }
+.section-three{
+    margin-top: -200px;
+}
 .section-three, .section-four{
     padding: 0px 0px 30px;
+    
 }
 .section-three .container .row{
     border-bottom: 1px solid rgb(218, 213, 213) ;
 }
 .section-three .container .row, .section-four .container .row{
     align-items: center;
-    padding: 0px 0px 100px;
+    padding: 200px 0px 100px;
 }
 .section-three .container .img, .section-four .container  .img{
     display: flex;
@@ -192,12 +196,13 @@ header{
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    padding:100px 0px;
+    padding:150px 0px;
+    margin-top: -60px;
 }
 .section-five .sec_one{
     justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align: center;   
 }
 /* .section-five .container {
     display: flex;
@@ -256,7 +261,7 @@ header{
     text-align: center;
 }
 .section-six, .section-seven{
-    padding: 70px 0px 40px;
+    padding: 200px 0px 60px;
 }
 .section-six .title, .section-seven .title{
     font-size: 28px;
@@ -404,7 +409,7 @@ header{
     color: #FFFFFF;
 }
 .section-nine{
-    padding: 70px 0px 30px;
+    padding: 160px 0px 60px;
 }
 .section-nine .container .title{
     font-size: 28px;
@@ -443,7 +448,7 @@ header{
     transition: all 0.3s ease 0s;
 }
 .section-ten{
-    padding: 70px 0px 30px;
+    padding: 130px 0px 60px;
     background-color:#f2f2fe ;
 }
 .section-ten .container .title{

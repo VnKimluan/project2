@@ -20,7 +20,9 @@ ul{
   padding: 0px; 
   margin: 0px;
 }
-
+html {
+    scroll-behavior: smooth;
+  }
 
 @media (max-width: 1199.98px){
     .header .nav-menu .list-menu ul li{
